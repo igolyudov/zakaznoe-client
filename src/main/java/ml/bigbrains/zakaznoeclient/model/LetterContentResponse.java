@@ -1,0 +1,10 @@
+package ml.bigbrains.zakaznoeclient.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class LetterContentResponse {
+    private byte [] content;
+}
