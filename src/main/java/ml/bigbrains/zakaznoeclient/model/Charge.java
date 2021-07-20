@@ -10,6 +10,7 @@ public class Charge {
     private String bankName;
     private Long bik;
     private Long kpp;
+    private String inn;
     private String descriprion;
     private String oktmo;
     private String operationAccount;
