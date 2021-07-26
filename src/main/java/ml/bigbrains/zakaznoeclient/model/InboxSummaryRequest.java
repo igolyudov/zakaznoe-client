@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Data
 public class InboxSummaryRequest {
-    private String requestUrl = "v2.0/inboxsummary";
+    private String requestUrl = "v2.0/inbox/summary";
 
     private LocalDateTime timeRangeBegin;
     private LocalDateTime timeRangeEnd;
